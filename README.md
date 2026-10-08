@@ -16,7 +16,6 @@ assert_eq!(LOWER, "lower_camel_case");
 
 const NOOP: &str = snakeycas!(snake_case);
 assert_eq!(NOOP, "snake_case");
-}
 ```
 
 This probably has one (maybe even two!) uses overall.
