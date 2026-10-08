@@ -1,6 +1,6 @@
 #![allow(non_camel_case_types)] // lmao
 #![allow(unused)] // this is just tests anyway
-use snakeyidentifiers_macro::snakeycas;
+pub use snakeyidentifiers_macro::snakeycas;
 
 // Many test means more green in cargo test :relieved:
 #[test]
