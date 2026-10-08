@@ -19,7 +19,7 @@ fn as_snake_case(input: &str) -> String {
 }
 
 #[proc_macro]
-pub fn snakecas(input: proc_macro::TokenStream) -> proc_macro::TokenStream {
+pub fn snakeycas(input: proc_macro::TokenStream) -> proc_macro::TokenStream {
     let ident: Ident = parse_macro_input!(input as Ident);
     let ident = ident
         .span()
