@@ -24,11 +24,11 @@ dependencies = [
 name = "snakeycas"
 version = "0.1.0"
 dependencies = [
- "snakeyidentifiers_macro",
+ "snakeycas_macro",
 ]
 
 [[package]]
-name = "snakeyidentifiers_macro"
+name = "snakeycas_macro"
 version = "0.1.0"
 dependencies = [
  "quote",
