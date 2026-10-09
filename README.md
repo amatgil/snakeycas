@@ -1,5 +1,6 @@
 # Snakeycas
 Turns identifiers into `const`, `snake_case` string slices.
+(Only for ascii, i don't trust myself to handle unicode case correctly).
 
 Behold, the one-and-only usage:
 
