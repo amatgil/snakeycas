@@ -2,6 +2,14 @@
 Turns identifiers into `const`, `snake_case` string slices.
 
 Behold, the one-and-only usage:
+
+
+Import,
+```toml
+snakeycas = { git = "https://github.com/amatgil/snakeycas" }
+```
+
+And call the singular macro this reexports:
 ```rust
 struct UpperCamelCase;
 struct lowerCamelCase;
