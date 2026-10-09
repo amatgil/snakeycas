@@ -12,6 +12,8 @@ snakeycas = { git = "https://github.com/amatgil/snakeycas" }
 
 And call the singular macro this reexports:
 ```rust
+use snakeycas::snakeycas;
+
 struct UpperCamelCase;
 struct lowerCamelCase;
 struct snake_case;
